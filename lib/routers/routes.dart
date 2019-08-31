@@ -5,7 +5,9 @@ import './router_handler.dart';
 // 路由总体配置
 class Routes {
   static String root = '/';
-  static String detailsPage = '/detail';
+  static String detailsPage   = '/detail';
+  static String categoryPage  = '/category';
+
   static void configureRoutes(Router router) {
     router.notFoundHandler = new Handler(
       handlerFunc: (BuildContext context, Map<String, List<String>> params) {

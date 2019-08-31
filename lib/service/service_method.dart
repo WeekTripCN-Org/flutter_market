@@ -5,7 +5,6 @@ import '../config/service_url.dart';
 
 Future request(url, {formData}) async {
   try {
-    print('${url}请求获取数据|参数|formData:${formData}');
     Response response;
     Dio dio = new Dio();
 
